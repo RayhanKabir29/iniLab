@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* 
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+.search-box {
+    position: relative;
+}
+.search-icon{
+    padding: 7px 10px;
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    background: #FB2E86;
+    font-size: 16px;
+}
+.search-icon i{
+    color: #fff;
+}
+.top-section{
+    background: #7E33E0;
+}
+.top-contact{
+    width: 50%;
+}
+.nav-link{
+   padding-right: 15px !important; 
+   color:#0D0E43;
+   font-family: 'Lato', sans-serif;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #fb2e86 !important;
+}
+/* Banner Section CSS */
+.banner-section{
+    background-color: #F2F0FF;
+    position: relative;
+}
+/* .banner-right{
+    position: relative;
+} */
+.right-img{
+    position: absolute;
+    top: -10px;
+    left: -110px;
+}
+.right-content{
+    padding: 160px 0;
+}
+.right-content>.sub-heading p{
+    color: #FB2E86;
+    font-family: 'Lato', sans-serif;
+    font-weight: Bold;
+    font-size: 16px;
+}
+.right-content>.banner-heading h2{
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+.right-content>.banner-text p{
+    color: #8A8FB9;
+    font-family: 'Lato', sans-serif;
+    font-weight: Bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.shop-now{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
+
+/* Feature Product CSS */
+.feature-product{
+    padding: 80px 0;
+}
+.card-img{
+    background-color: #F6F7FB;
+    display: flex;
+    justify-content: center;
+    
+}
+.card-img img{
+    width: 178px;
+    height: 178px;
+    
+}
+.card-text h6{
+    font-family: 'Lato', sans-serif;
+    color: #FB2E86;
+    font-size:18px;
+}
+.card-text p{
+    color: #151875;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+}
+.feature-product .owl-theme .owl-dots {
+    margin-top: 25px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+/* Latest Product */
+.latest-product{
+    padding: 0 0 60px;
+}
+.latest-product h6{
+    color:#151875;
+}
+.latest-price p{
+    color:#151875
+}
+.latest-price span p{
+    color: #FB2448;
+
+}
+
+/* Offer */
+.offer-section{
+    padding: 40px 0 80px;
+}
+.offer-section .card{
+    border:0;
+    box-shadow:0px 8px 24px rgba(149, 157, 165, 0.2) ;
+}
+.card-content{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+.card-icon i{
+    color: #FF6344;
+    font-size: 22px;
+}
+.service-text{
+    text-align: center;
+}
+.service-text h5{
+    color: #151875;
+}
+.service-text p{
+    color: #1A0B5B4D;
+
+}
+/* Promo Section CSS*/
+.promo-section{
+    background-color: #F1F0FF;
+}
+.promo-banner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.promo-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.promo-content ul li{
+    list-style: disc;
+    color: #ACABC3;
+
+}
+.card-shadow{
+    border: none;
+    border-radius: 0;
+    box-shadow:0px 8px 24px rgba(149, 157, 165, 0.2) ;
+}
+.add-to-cart{
+    padding: 6px 20px;
+    color: #fff;
+}
+/* Tending */
+.trending-products{
+    padding: 80px 0;
+}
+.trend-product{
+    background-color: #F5F6F8;
+    display: flex;
+    justify-content: center; 
+    padding: 30px;
+    margin: 20px;
+}
+.trend-product img{
+    width: 171px;
+    height: 171px;
+}
+.price-trend p{
+    color:#151875;
+    margin-right: 10px;
+}
+.trent-price-original p{
+    color:#1518754D;
+}
+.text-color{
+    color:#151875;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+.discount-product{
+    background-color: #FFF6FB;
+    min-height: 260px;
+}
+.discount-shop{
+    position: relative;
+}
+.discount-shop img{
+    position: absolute;
+    width: 213px;
+    height: 207px;
+    top: -22px;
+    right: 0;
+}
+.all-discount{
+    position: relative;
+    background-color: #31208A0D;
+    min-height: 260px;
+}
+.all-discount img{
+    width: 312px;
+    height: 173px;
+    position: absolute;
+}
+.exclusive-img{
+    width: 50%;
+    background-color: #F5F6F8;
+    display: flex;
+    justify-content: center;
+}
+.exclusive-item img{
+    width: 64px;
+    height:84px;
+}
+.exclusicve-des{
+    padding-left: 15px;
+}
+/* Footer CSS */
+.footer-section{
+    background-color: #EEEFFB;
+    padding: 40px 0 25px;
+    
+ }
+ .sign-up{
+    position: relative;
+    }
+    .sign-up>input{
+        width: 300px;
+        padding: 6px 20px;
+        border: none;
+    
+    }
+    .btn-signup{
+        color: #fff;
+        position: absolute;
+        right: 7px;
+    }

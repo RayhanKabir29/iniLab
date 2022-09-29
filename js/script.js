@@ -1,3 +1,13 @@
+const nav = document.getElementById("top-nav");
+window.onscroll = function () {
+  const scroll_nav = window.scrollY;
+  if (scroll_nav >= 50) {
+    nav.classList.add("after-scroll");
+  } else {
+    nav.classList.remove("after-scroll");
+  }
+};
+
 $(document).ready(function () {
   $(".content-2").hide();
   $(".content-3").hide();

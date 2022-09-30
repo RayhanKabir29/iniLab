@@ -217,9 +217,14 @@ font-family: 'Lato', sans-serif;
 .card{
     border: 0;
 }
-.latest-product .card-img img{
+.latest-product .card-img{
+    display: flex;
+    justify-content: center;
     background-color:#F7F7F7;
-    max-height: 300px !important;
+}
+.latest-product .card-img img{
+    max-height: 178px !important;
+    width: 178px;
 }
 .latest-product .card{
     position: relative;
@@ -250,7 +255,7 @@ font-family: 'Lato', sans-serif;
     margin: 24px 18px 0;
     color: #fff;
 }
-.latest-product .card:hover .card-img img{
+.latest-product .card:hover .card-img{
     background-color: #fff;
 }
 .latest-product .card:hover .sale-sticker{

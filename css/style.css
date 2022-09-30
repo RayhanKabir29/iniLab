@@ -50,7 +50,7 @@ font-family: 'Lato', sans-serif;
    color:#0D0E43;
    font-family: 'Lato', sans-serif;
 }
-.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+.active{
     color: #fb2e86 !important;
 }
 /* Banner Section CSS */
@@ -115,7 +115,53 @@ font-family: 'Lato', sans-serif;
 .card-img img{
     width: 178px;
     height: 178px;
-    
+    position: relative;
+}
+
+
+.feature-product .card:hover .card-body{
+   background-color: #2F1AC4;
+}
+.feature-product .card:hover .card-body .card-text h6, .feature-product .card:hover .card-body .card-text p{
+    color: #fff !important;
+ }
+.card-img-icon {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    display: none;
+}
+.card-img-icon a{
+    padding-right: 7px;
+}
+.feature-product .card:hover .card-img-icon{
+    display: block;
+}
+.fi-1{
+    color: #2F1AC4;
+}
+.fi-2, .fi-3{
+    color: #1DB4E7;
+}
+.card-btn{
+    position: absolute;
+    bottom: 110px;
+    transition:transform .2s ease-in-out;
+    display: none;
+}
+.card-btn button{
+    color: #fff;
+    background: #08D15F;
+    padding: 0px 12px !important;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.feature-product .card:hover .card-btn{
+    display: block;
 }
 .card-text h6{
     font-family: 'Lato', sans-serif;
@@ -131,6 +177,9 @@ font-family: 'Lato', sans-serif;
     margin-top: 25px;
     text-align: center;
     -webkit-tap-highlight-color: transparent;
+}
+.mobile-slider{
+    display: none !important;
 }
 /* Latest Product */
 .latest-product{

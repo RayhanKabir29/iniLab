@@ -23,8 +23,23 @@
     .ph{
         padding: 0px;
     }
+    .desktop-slider{
+        display: none !important;
+    }
+    .feature-product {
+        padding: 30px 0;
+    }
+    .mobile-slider{
+        display: block!important;
+    }
     .col-md-3, .col-md-4{
         margin-bottom: 10px;
+    }
+    .filter{
+        margin: 30px 0 !important; 
+    }
+    .offer-section {
+        padding: 0 0 80px;
     }
     .promo-banner {
         display: flex;

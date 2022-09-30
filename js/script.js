@@ -1,3 +1,4 @@
+// Sticky nav
 const nav = document.getElementById("top-nav");
 window.onscroll = function () {
   const scroll_nav = window.scrollY;
@@ -8,6 +9,17 @@ window.onscroll = function () {
   }
 };
 
+// Nav color
+$(document).ready(function () {
+ 
+  $('#nav ul li a')
+          .click(function (e) {
+      $('#nav ul li a')
+          .removeClass('active');
+      $(this).addClass('active');
+  });
+});
+// Toggle content
 $(document).ready(function () {
   $(".content-2").hide();
   $(".content-3").hide();

@@ -11,14 +11,44 @@ window.onscroll = function () {
 
 // Nav color
 $(document).ready(function () {
- 
-  $('#nav ul li a')
-          .click(function (e) {
-      $('#nav ul li a')
-          .removeClass('active');
-      $(this).addClass('active');
+  $("#nav ul li a").click(function (e) {
+    $("#nav ul li a").removeClass("active");
+    $(this).addClass("active");
   });
 });
+// Change img on color
+$(document).ready(function () {
+  $(".img-content-2").hide();
+  $(".img-content-3").hide();
+  $(".change-img-1").addClass("img-show");
+
+  $(".change-img-2").click(function () {
+    $(".img-content-1").hide();
+    $(".img-content-2").show();
+    $(".img-content-3").hide();
+    $(".change-img-2").addClass("img-show");
+    $(".change-img-1").removeClass("img-show");
+    $(".change-img-3").removeClass("img-show");
+  });
+
+  $(".change-img-3").click(function () {
+    $(".img-content-1").hide();
+    $(".img-content-2").hide();
+    $(".img-content-3").show();
+    $(".change-img-3").addClass("img-show");
+    $(".change-img-1").removeClass("img-show");
+    $(".change-img-2").removeClass("img-show");
+  });
+  $(".change-img-1").click(function () {
+    $(".img-content-1").show();
+    $(".img-content-2").hide();
+    $(".img-content-3").hide();
+    $(".change-img-1").addClass("img-show");
+    $(".change-img-2").removeClass("img-show");
+    $(".change-img-3").removeClass("img-show");
+  });
+});
+
 // Toggle content
 $(document).ready(function () {
   $(".content-2").hide();
